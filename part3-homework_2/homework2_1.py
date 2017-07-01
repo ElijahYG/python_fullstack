@@ -3,20 +3,30 @@
 __author__ = "Elijah"
 __date__ = "2017/6/20 23:26"
 
-# 员工信息表程序，实现增删改查操作
-# 可进行模糊查询，语法至少支持下面3种:
-#     select name,age from staff_table where age > 22
-#     select  * from staff_table where dept = "IT"
-#     select  * from staff_table where enroll_date like "2013"
-# 查到的信息，打印后，最后面还要显示查到的条数
-# 可创建新员工纪录，以phone做唯一键，staff_id需自增
-# 可删除指定员工信息纪录，输入员工id，即可删除
-# 可修改员工信息，语法如下:
-#   UPDATE staff_table SET dept="Market" WHERE where dept = "IT"
-# 1. 支持至少三种方法的select查询，并在最后显示查询到的条数。
-# 2. 创建新员工记录，以phone为唯一键，staff_id自增
-# 3. 输入员工id可删除指定员工信息记录
-# 4. 可以使用UPDATE命令修改指定员工信息。
+# Readme
+# Author: Elijah
+# Time: 2017-06-20
+# Function:员工信息表程序
+#     可进行模糊查询，语法至少支持下面3种:
+#         select name,age from staff_table where age > 22
+#         select  * from staff_table where dept = "IT"
+#         select  * from staff_table where enroll_date like "2013"
+#     查到的信息，打印后，最后面还要显示查到的条数
+#     可创建新员工纪录，以phone做唯一键，staff_id需自增
+#     可删除指定员工信息纪录，输入员工id，即可删除
+#     可修改员工信息，语法如下:
+#       UPDATE staff_table SET dept="Market" WHERE where dept = "IT"
+#     1. 支持至少三种方法的select查询，并在最后显示查询到的条数。
+#     2. 创建新员工记录，以phone为唯一键，staff_id自增
+#     3. 输入员工id可删除指定员工信息记录
+#     4. 可以使用UPDATE命令修改指定员工信息。
+# Need Environment：Python 3.5 、PyCharm
+# Move：
+# Feature：
+# Important py file：re、time
+# How To：Execute directly
+# 个人发挥：用模块化的编程思想
+# 个人博客地址：http://blog.csdn.net/dragonyangang/article/details/74069329
 
 # 导入
 import re

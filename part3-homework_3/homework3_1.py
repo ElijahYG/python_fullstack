@@ -3,15 +3,25 @@
 __author__ = "Elijah"
 __date__ = "2017/6/24 20:28"
 
-# ATM
-# √ 1. 指定最大透支额度
-# √ 2. 可取款
-# √ 3. 定期还款（每月指定日期还款，如15号）
-# √ 4. 可存款
-# √ 5. 定期出账单
-# √ 6. 支持多用户登陆，用户间转帐
-# √ 7. 支持多用户
-# √ 8. 管理员可添加账户、指定用户额度、冻结用户等
+# Readme
+# Author: Elijah
+# Time: 2017-06-24
+# Function:ATM
+#     1. 指定最大透支额度
+#     2. 可取款
+#     3. 定期还款（每月指定日期还款，如15号）
+#     4. 可存款
+#     5. 定期出账单
+#     6. 支持多用户登陆，用户间转帐
+#     7. 支持多用户
+#     8. 管理员可添加账户、指定用户额度、冻结用户等
+# Need Environment：Python 3.5 、PyCharm
+# Move：
+# Feature：
+# Important py file：re、datetime
+# How To：Execute directly
+# 个人发挥：用模块化的编程思想
+# 个人博客地址：http://blog.csdn.net/dragonyangang/article/details/74071248
 
 # 导入
 import datetime

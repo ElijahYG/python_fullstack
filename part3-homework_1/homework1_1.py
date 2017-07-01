@@ -19,7 +19,7 @@ __date__ = "2017/6/18 20:07"
 # Important py file：os
 # How To：Execute directly
 # 个人发挥：用模块化的编程思想
-# 个人博客地址：http://blog.csdn.net/dragonyangang/
+# 个人博客地址：http://blog.csdn.net/dragonyangang/article/details/74067566
 
 #导入
 import os
