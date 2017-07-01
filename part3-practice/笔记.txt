@@ -1,0 +1,1221 @@
+2017.06.08
+------>1、上节课复习
+f=open('a.txt','r/w/a/r+/w+/a+')
+文件操作：
+f.readline()读一行-光标移动到下一行的行首
+f.flush()写完立刻刷入硬盘
+f.close()
+f.seek()移动光标位置0：开始1：当前位置2：行尾
+f.truncate(n)截断文件，从光标位置开始截断n个字符-修改文件内容，必须在写模式下才能用
+f.write()写内容,只能写一行，之后下次打开的时候清空
+f.writelines(['11111\n','22222\n','3333\n'])可以写多行
+上下文的模式
+with open('a.txt') as f,open('b.txt')as f2:
+
+文件没有修改这种说法，因为一旦写入了就存入硬盘了，占用了硬盘block块，所以所谓的修改就是另开辟一段block块，
+而在内存级别上是可以进行修改的
+
+★所以文件的修改的方法：
+方法一：
+只能将文件先读进内存，修改完成之后再写回文件
+方法二：
+读原文件内容，一行一行读，之后一行一行修改再写入另一个文件中
+
+flag：标志位可以使True、False也可以是1、2、3
+
+------>2、为什么要用函数
+代码冗余
+可维护性差
+组织结构差，不易读
+
+------>3、初识函数
+一、内置函数：解释器自带的，可以直接使用的，
+函数名()即可调用
+built-in function
+例如：print(print)、print(sum)
+二、自定义函数
+def关键字定义自定义函数
+例如：
+打印：
+'''
+########################
+alex  action1 action2
+########################
+'''
+def print_line():
+    print('#'*24)
+def print_msg():
+    print('alex action1 action2')
+print_line()
+print_msg()
+print_line()
+即可完成上面的打印效果
+
+函数定义：
+def 函数名（arg1，arg2，arg3）：
+    '描述信息'
+    函数体
+    return （任意数据类型）
+
+------>4、函数的定义和调用
+先定义，后使用
+
+1、定义无参函数
+def foo():
+    'foo function'
+    print('from the foo')
+print(foo.__doc__)可以打印出描述信息foo function
+
+2、定义有参函数
+def bar(x,y):
+    res = x+y
+    return res
+
+3、定义空函数
+def auth():
+    pass
+
+空函数的作用：建立程序结构用的
+
+函数的调用
+定义时无参，调用时无参
+定义时有参，调用时必须有参
+
+函数调用形式：
+语句形式->无参数函数调用：foo()
+表达式->有参数函数调用：res=bar(1,2)
+例子：递归调用->bar(bar(1,2),3)
+
+------>5、函数的返回值
+return有三种情况
+不写return():默认返回none
+
+return()一个值:
+def my_max(x,y):
+    res = x if x>y else y:
+    return(res)
+
+return()多个值:默认将结果包装成元组
+
+★变量的解压：（针对序列都是可以的）
+x= 'hello'取第一个和最后一个值
+x,y,z,x1,x2 = 'hello'
+则x,y,z,x1,x2分别代表h,e,l,l,o
+
+a,_,_,_,e = [1,2,3,4,5]
+a,*_,e=[1,2,3,4,5]
+输出a,e即为1,5
+
+总结：
+返回值可以是任意类型
+不写return()---->none
+return 1 ----->1
+return 1,2,3 ----->(1,2,3)
+函数只能执行一次return
+
+------>6、形参和实参
+扩展：在定义函数的时候就写明参数类型和返回值类型:但是实际上是不能严格限制的
+def my_sum(x:int,y:int)->int:
+    print(x+y)
+print(my_sum.__annmotations__)
+
+函数的参数介绍
+def foo(x,y):
+    print(x)
+    print(y)
+foo(1,2)
+形参：在定义函数时写的参数，可以被当成变量名
+实参：在调用函数是写的参数，可以被当成变量的值，可以是变量的形式，但是这个变量必须有明确的值
+
+在调用函数的时候就相当于x=1,y=2,而且这种绑定关系只在函数内部有效
+
+在定义函数的时候变量只和函数内部有关，不要和外部变量有关系
+
+------>7、位置参数与默认参数
+def foo(x,y):
+    print(x)
+    print(y)
+
+实参
+分为三种形式：
+按位置传递值：foo(1,2)——>x=1,y=2
+按关键字传递值：foo(y=2,x=1)——>x=1,y=2
+按位置与按关键字混用：foo(1,y=2)——>x=1,y=2
+    按位置传递值必须在按关键字传递值的前面
+    对于一个形参只能赋值一次
+
+形参：
+位置参数：必须传值的参数
+默认参数：定义的时候就有值，如果调用的时候传值了就用调用时候传递的，如果调用阶段没传就用默认的
+    默认参数必须放在位置参数的后面
+
+2017.06.09
+------>8、可变参数
+*args:
+实参的角度：*把按位置传值多余的值统一交给*处理，*会将多余的值保存成元组的形式
+def foo(x,*args):--->*args要放在x后面
+    print(x)
+    print(args)
+foo(1,2,3,4,5,6,'a')
+>>>1
+>>>(2,3,4,5,6,'a')
+
+1、def foo(x,y=1,*args):--->这样的情况y=1是不起作用的，y不会等于1，而是等于2，被传递的值覆盖了
+    print(x)
+    print(y)
+    print(args)
+foo(1,2,3,4,5,6,'a')
+>>>1
+>>>2
+>>>(3,4,5)
+
+2、def foo(x,*args,y=1):--->这样的情况y=1是起作用的
+    print(x)
+    print(y)
+    print(args)
+foo(1,2,3,4,5,6,'a')
+>>>1
+>>>1
+>>>(2,3,4,5,6,'a')
+
+*只要遇见*就是将参数打散开来看
+对*的解释——从形参的角度
+def foo(*args): #foo(x,y,z……)
+    print(x)
+    print(y)
+    print(z)
+
+对*的解释——从实参的角度
+def foo(x,y,z):
+    print(x)
+    print(y)
+    print(z)
+foo(*(1,2,3))
+
+
+**kwargs
+实参的角度：**会把按关键字传值的多余的值统一交给**处理，**会将多余的值保存成字典的形式
+def foo(x,**kwargs):
+    print(x)
+    print(kwargs)
+foo(1,y=2,a=3,b=4)
+
+混着用的位置问题
+def foo(x,*args,**kwargs):
+    print(x)
+    print(args)
+    print(kwargs)
+foo(1,y=2,z=3)
+
+以下形式可以接受任意形式的传参，按位置传值和按关键字传值都行，且传值的个数没有限制
+def foo(*args,**kwargs):
+    print(args)
+    print(kwargs)
+foo(1,y=2,z=3)
+
+
+------>9、上节课复习
+
+------>10、名称空间与作用域
+名称空间分成三种
+1、内置名称空间：解释器启动就有的，可以在任意位置引用
+>>>import builtins
+>>>dir(builtins)
+>>>['ArithmeticError', 'AssertionError', 'AttributeError', 'BaseException', 'BlockingIOError', 'BrokenPipeError', 'BufferError', 'BytesWarning', 'ChildProcessError', 'ConnectionAbortedError', 'ConnectionError', 'ConnectionRefusedEr
+ror', 'ConnectionResetError', 'DeprecationWarning', 'EOFError', 'Ellipsis', 'EnvironmentError', 'Exception', 'False', 'FileExistsError', 'FileNotFoundError', 'FloatingPointError', 'FutureWarning', 'GeneratorExit', 'IOError', 'Im
+portError', 'ImportWarning', 'IndentationError', 'IndexError', 'InterruptedError', 'IsADirectoryError', 'KeyError', 'KeyboardInterrupt', 'LookupError', 'MemoryError', 'NameError', 'None', 'NotADirectoryError', 'NotImplemented',
+'NotImplementedError', 'OSError', 'OverflowError', 'PendingDeprecationWarning', 'PermissionError', 'ProcessLookupError', 'RecursionError', 'ReferenceError', 'ResourceWarning', 'RuntimeError', 'RuntimeWarning', 'StopAsyncIteratio
+n', 'StopIteration', 'SyntaxError', 'SyntaxWarning', 'SystemError', 'SystemExit', 'TabError', 'TimeoutError', 'True', 'TypeError', 'UnboundLocalError', 'UnicodeDecodeError', 'UnicodeEncodeError', 'UnicodeError', 'UnicodeTranslat
+eError', 'UnicodeWarning', 'UserWarning', 'ValueError', 'Warning', 'WindowsError', 'ZeroDivisionError', '__build_class__', '__debug__', '__doc__', '__import__', '__loader__', '__name__', '__package__', '__spec__', 'abs', 'all',
+'any', 'ascii', 'bin', 'bool', 'bytearray', 'bytes', 'callable', 'chr', 'classmethod', 'compile', 'complex', 'copyright', 'credits', 'delattr', 'dict', 'dir', 'divmod', 'enumerate', 'eval', 'exec', 'exit', 'filter', 'float', 'fo
+rmat', 'frozenset', 'getattr', 'globals', 'hasattr', 'hash', 'help', 'hex', 'id', 'input', 'int', 'isinstance', 'issubclass', 'iter', 'len', 'license', 'list', 'locals', 'map', 'max', 'memoryview', 'min', 'next', 'object', 'oct'
+, 'open', 'ord', 'pow', 'print', 'property', 'quit', 'range', 'repr', 'reversed', 'round', 'set', 'setattr', 'slice', 'sorted', 'staticmethod', 'str', 'sum', 'super', 'tuple', 'type', 'vars', 'zip']
+
+2、全局名称空间：顶头定义的名字，也就是指全局中定义的变量名或者函数名；程序运行的时候生效，可以在定以后的任意位置引用
+3、局部名称空间：在函数内部定义的名字，函数执行的时候生效，可以在函数内部引用
+
+作用域：先找局部作用域—>全局作用域—>内置作用域
+x=1
+def foo():
+    x=1000
+    print(x)
+foo()
+结果是：1000
+
+先定义后使用
+以下方式不会报错，因为在调用foo()的时候bar已经定义了，函数的定义和调用时两个阶段，只要是在调用阶段函数定义完成就可以
+def foo():
+    print("from foo")
+    bar()
+def bar():
+    print("from bar")
+foo()
+
+------>11、函数的嵌套
+x=1
+def func():
+    print('from func')
+    x=2
+print(globals()) 内置函数——查看全局名称空间
+print(locals()) 内置函数——查看局部名称空间
+
+函数的嵌套调用：
+优点：减少代码冗余、
+求两个数中的最大值：
+def my_max(x,y):
+    res=x if x > y else y
+    return res
+print(my_max(10,100))
+
+求四个数中的最大值：
+def my_max4(a,b,c,d):
+    res1=my_max(a,b)
+    res2=my_max(res1,c)
+    res3=my_max(res2,d)
+    return res3
+print(my_max4(1,20,3,4))
+
+if __name__ == '__main__':
+
+函数的嵌套定义：
+def f1():
+    print("from f1")
+    def f2():
+        print("from f2")
+        def f3():
+            pass
+
+在外面不能调用f2()因为f2是在f1中定义的，相当于f1的局部定义的函数
+
+------>12、函数是第一类对象的概念
+名称空间与作用域的关系
+内置名称空间---|
+               |——>全局作用域
+全局名称空间---|
+局部名称空间----->局部作用域
+
+----------------------------------------
+函数是第一类对象:函数可以被当做数据来传递
+函数可以被赋值
+def foo():
+    print("foo")
+print(foo)
+f=foo
+print(f)
+print(f())
+
+函数可以被当做参数传递
+def bar(func):
+    print(func)
+bar(foo) #打印出来就是foo的内存地址
+bar(foo())
+----------------------------------------
+----------------------------------------
+把函数当做容器类型的元素
+def search():
+    print("search function")
+
+def add():
+    print("add function")
+
+def tell_msg():
+    msg='''
+    search :查询
+    add : 添加
+    '''
+
+cmd_dic={
+    'search':search,
+    'add':add,
+}
+
+while True:
+    tell_msg()
+    choice = input("input your choice>>>").strip()
+    print(choice)
+    cmd_dic[choice]()
+
+
+------>13、闭包
+x=123
+def f1():
+    x=1
+    def f2():
+        print(x)
+    return f2
+f=f1()
+print(f)
+f()
+运行f()后结果是：1
+
+作用域的关系是在定义阶段就定义好了，上述例子不以f()在全局调用就会返回全局的x=123，而是在定义的时候就定义好了x是f1的局部变量
+
+
+闭包函数：首先必须是内部定义的函数，该函数包含对外部作用域而非全局作用域名字的引用
+以下就不是闭包：
+x=1
+def f1():
+    def f2():
+        print(x)
+对外部作用域，而不是全局作用域的引用
+下面就是闭包
+x=1
+def f1():
+    x=2
+    def f2():
+        print(x)
+    return f2
+f=f1()
+f()
+结果是2，说明是闭包，引用了外部作用域
+print(f.__closure__) #用__closure__来查看闭包中包含的元素
+
+解释：调用f()的时候不能知道f()的代码，而return的f2中还包含的了它作用域的引用
+解释：在return的f2中不仅包含了f2的功能，同时还包含的了它作用域的引用也就是x=2这个名字的引用
+闭包特性：自带"干粮",也就是自带x=2，而不受其他x的影响
+作用：
+前提知识：
+>>>import requests
+>>>requests.get("www.baidu.com").text #返回页面源代码
+or
+>>>from urllib.request import urlopen
+>>>urlopen("http://www.baidu.com").read()
+需求：爬取百度的页面
+from urllib.request import urlopen
+def get(url):
+    return urlopen(url).read()
+print(get("http://www.baidu.com"))
+
+修改为闭包的形式如下：
+新需求：只爬百度的页面，也就是将百度的url保存下来
+from urllib.request import urlopen
+def get(url):
+    return urlopen(url).read()
+
+def f1(url):
+    def f2():
+        print(urlopen(url).read())
+    return f2
+f = f1("http://www.baidu.com")
+f()
+f()执行之后返回的不光是f1自己还包括url地址，也就是返回了符f1()+url
+
+精髓之处在于用户在想要爬取百度的网页时，不需要自己传参数，而只需要直接执行f()就可以了，简而言之，保存状态！
+
+------>14、上节课复习
+------>15、装饰器介绍
+装饰器的意义
+开放封闭原则：程序上线之后要尽量避免修改源代码，所以面对上线后的新需求就要利用装饰器来进行函数的功能增加
+什么是装饰器：装饰器本身就是可调用对象，功能就是增加被装饰者的功能，且不修改被装饰者的源代码和调用方式
+例子：
+def index():
+    print("welcome to oldboy!")
+index()
+需求：不改变index的源代码和调用方式的前提下增加一个统计运行时间的功能
+def timmer(func):
+    def wrapper(*args,**kwargs):
+        start = time.time()
+        res = index()
+        stop = time.time()
+        print("run time is %s" %(stop -start))
+    return wrapper
+@timmer
+def index():
+    time.sleep(3)
+    print("welcome to oldboy!")
+index()
+
+------>16、无参装饰器的简单实现
+装饰器
+import time
+
+def timmer(func):
+    def wrapper(*args,**kwargs):
+        start = time.time()
+        res = func()
+        stop = time.time()
+        print("run time is %s" %(stop -start))
+    return wrapper
+
+@timmer #timmer就是装饰器，只要写了@decorate，就会将@decorate下面的一行的函数名当做参数传给装饰器，index = timmer(index)
+def index():
+    time.sleep(3)
+    print("welcome to oldboy!")
+index() ——————>本质就是执行的wrapper()
+
+------>17、无参装饰器修正part1
+
+------>18、无参装饰器修正part2
+import time
+
+def timmer(func):
+    def wrapper(*args,**kwargs):
+        start = time.time()
+        res = func()
+        stop = time.time()
+        print("run time is %s" %(stop -start))
+    return wrapper
+
+@timmer
+def my_max(x,y):
+    print("from my_max")
+    res = x if x > y else y
+    return res
+
+res = my_max(1,2)
+print(res)
+
+------>19、有参装饰器实现
+需求：为index函数增加认证功能->根据用户认证的不同类型来进行不同操作，在auth外面包一层auth2，用闭包的方式传递一个auth_type，
+利用auth_type来进行判断区分
+import time
+
+def auth2(auth_type):
+    def auth(func):
+        def wrapper(*args, **kwargs):
+            if auth_type == "file":
+                name = input("username:>>>").strip()
+                password = input("password:>>>").strip()
+                if name == "yang" and password == "123"
+                    print("auth successful !")
+                    res = func(*args, **kwargs)
+                    return res
+                else:
+                    print("auth error!")
+            elif auth_type == "SQL":
+                print("用SQL")
+        return wrapper
+    return auth
+
+@auth2(auth_type = "file") #@auth + auth_type =>index=auth(index) + auth_type
+def index():
+    print("welcome to index page!")
+
+@auth(auth_type = "SQL")
+def home():
+    print("welcome to home page!")
+
+index()
+
+------>20、有参装饰器执行流程分析
+
+------>21、装饰器补充
+多个装饰器
+@bbb
+@aaa
+def func():
+    pass
+func = bbb(aaa(func))
+
+多个有参装饰器
+@bbb("b")
+@aaa("a")
+def func():
+    pass
+func = bbb("b")(aaa("a")(func))
+
+*补充—格式化写入文件
+eval()
+
+------>22、上节课复习
+
+------>23、迭代器:一种不依赖索引遍历对象的工具
+python解释器为数据类型内置一个__iter__方法，所以只要有这个方法就说明是的可迭代对象
+可迭代对象：对象本身有__iter__方法，就说明其是可迭代的
+d={"a":1, "b":2, "c":3}
+d.__iter__() => iter(d)
+
+i就是迭代器
+i= d.__iter__()
+迭代器本身又有一个内置的__next__方法
+i.__next__()
+
+所以：
+d={"a":1, "b":2, "c":3}
+i = d.__iter__()
+while True:
+    print(i.__next__())
+
+d={"a":1, "b":2, "c":3}
+i = iter(d)
+while True:
+    print(next(i))
+
+会抛出异常，所以：补充知识点—>异常捕捉
+d={"a":1, "b":2, "c":3}
+i = iter(d)
+while True:
+    try:
+        print(next(i))
+    except StopIteration:
+        break
+
+------>24、迭代器2
+d={"a":1, "b":2, "c":3}
+for k in d: # d.__iter__()
+    print(k)
+解释：python的for循环，将in后面的对象首先调用器__iter__()方法再返回至对象中，所以实际遍历的其是就是迭代器，而且for循环
+自动加上了异常处理机制，防止__next__()报异常错误
+
+迭代器优点：
+1、提供了一种不依赖索引的取值方式，这样可以遍历没有索引的可迭代对象，例如字典、集合、文件
+2、迭代器更省内存
+迭代器缺点：
+1、无法获取迭代器的长度，使用不如列表索引取值灵活
+2、next()只能一次性执行，而且不能反向和重复
+
+查看可迭代对象与迭代器对象
+
+from  clooections import iterable,iterator
+
+isinstance(i,iterator)
+
+s="hello"
+l=[1,2,3]
+t=(1,2,3)
+d={"a":1}
+set1={1,2,3,4}
+f=open("a.txt")
+
+都是可迭代的
+s.__iter__()
+l.__iter__()
+t.__iter__()
+d.__iter__()
+set1.__iter__()
+f.__iter__()
+
+或者用for循环试验
+
+再或者
+print(isinstance(s,iterable))
+print(isinstance(l,iterable))
+print(isinstance(t,iterable))
+print(isinstance(d,iterable))
+print(isinstance(set1,iterable))
+print(isinstance(f,iterable))
+
+print(isinstance(s,iterator))
+print(isinstance(l,iterator))
+print(isinstance(t,iterator))
+print(isinstance(d,iterator))
+print(isinstance(set1,iterator))
+print(isinstance(f,iterator))
+
+2017.06.14
+------>25、生成器：将函数转化为迭代器，迭代器则是把数据类型转化为可迭代的
+生成器就是一个函数，函数内包含有yield关键字，就叫生成器
+生成器本身就是迭代器
+
+def test():
+    print("first")
+    yield 1
+g = test()
+print(g)
+既然生成器本身就是迭代器，所以有next()方法
+print(next(g))
+每次运行生成器就是执行一次函数运行，并返回一个yield的值，如果有多个yield，则next一次取一个yield
+def test():
+    print("one")
+    yield 1
+    print("two")
+    yield 2
+    print("three")
+    yield 3
+g = test()
+print(next(g))
+
+>>>one
+>>>1
+print(next(g))
+>>>two
+>>>2
+print(next(g))
+>>>three
+>>>3
+执行一次next就是在上一个yield的基础上继续向下执行，yield就是返回值
+
+生成器yield与return 的区别？
+    return只能返回一次值，函数就彻底结束了
+    yield能返回多次值
+yield作用？
+    1、yield吧函数变成生成器—>迭代器
+    2、return只能返回一次值，函数就彻底结束了，yield能返回多次值
+    3、函数在暂停以及继续下一次运行时的状态是由yield保存
+
+
+------>26、生成器应用
+惰性计算：自己控制循环值
+def func():
+    while True:
+        yield n
+        n += 1
+
+f = func()
+print(next(f))
+
+应用实例：实现linux的tail读取文件新增内容功能
+
+import time
+def tail(file_path):
+    with open(file_path, 'r') as f:
+        f.seek(0,2)
+        while True:
+            line = f.readline()
+            if not line:
+                time.sleep(0.3)
+                continue
+            else:
+                print(line,end='') #,end=''表示打印完一行最后的换行符转换为空，也就是没有换行符
+tail('/tmp/a,txt')
+
+用生成器改写上面的tail功能，并添加grep功能筛选带有error的文本
+import time
+#函数定义阶段
+def tail(file_path):
+    with open(file_path, 'r') as f:
+        f.seek(0,2)
+        while True:
+            line = f.readline()
+            if not line:
+                time.sleep(0.3)
+                continue
+            else:
+                yield line
+
+def grep(pattern, lines):
+    for line in lines:
+        if pattern in line:
+            print(''\033[45m%s\033[0m' %line)
+
+#调用阶段
+g = tail('/tmp/a.txt')
+grep('error',g)
+
+------>27、协程函数
+def eater(name):
+    print('%s start to eat food' %name)
+    while True:
+        food = yield
+        print('%s get %s to start eat' %(name,food))
+    print('done')
+
+e = eater('alex')
+print(e)
+print(next(e))
+
+如果函数中是通过表达式的形式来使用yield时，可以给yield传值
+def eater(name):
+    print('%s start to eat food' %name)
+    while True:
+        food = yield
+        print('%s get %s to start eat' %(name,food))
+    print('done')
+
+e = eater('alex')
+
+next(e)
+print(e.send('包子1')) #此处send会将'包子'传递给yield
+print(e.send('包子2'))
+print(e.send('包子3'))
+print(e.send('包子4'))
+每次执行send都向yield传递值，一次一次的执行
+
+def eater(name):
+    print('%s start to eat food' %name)
+    while True:
+        food = yield food_list
+        print('%s get %s to start eat' %(name,food))
+        food_list.append(food) #保存每次传递给yield的值
+    print('done')
+
+e = eater('alex')
+
+next(e)
+print(e.send('包子1')) #此处send会将'包子'传递给yield
+print(e.send('包子2'))
+print(e.send('包子3'))
+print(e.send('包子4'))
+
+------>28、上节课复习
+------>29、为协程函数添加初始化装饰器
+
+def init(func):
+    def wrapper(*args, **kwargs):
+        res = func(*args, **kwargs)
+        next(res)
+        return res
+    return wrapper
+
+@init #eater=init(eater)
+def eater(name):
+    print('%s start to eat food' %name)
+    while True:
+        food = yield food_list
+        print('%s get %s to start eat' %(name,food))
+        food_list.append(food) #保存每次传递给yield的值
+    print('done')
+
+e = eater('alex')
+
+#next(e) 这一步被上面的装饰器做了
+
+print(e.send('包子3'))
+
+------>30、上节课作业讲解
+爬取网页：send一次爬取一次
+from urllib.request inport urlopen
+def get():
+    while True:
+        url = yield
+        res = urlopen(url).read()
+        print(res)
+
+g = get() #创建生成器
+next(g) #先停在yield地方
+g.send('http://www.python.org') #把url地址给yield
+
+------>31、面向过程的程序设计
+协程函数：在函数当中yield是一个表达式来体现的，就叫协程函数
+
+需求：创建一个函数实现linux中的grep -rl 'target_string' /direct功能，即递归查找某个目录/direct下包含某段字符串target_string的文件路径
+
+import os
+
+#装饰器
+def init(func):
+    def wrapper(*args, **kwargs):
+        res = func(*args, **kwargs)
+        next(res)
+        return res
+    return wrapper
+
+#函数定义阶段
+@init
+def search(generator):
+    '''
+    找到文件的绝对路径
+    '''
+    while True:
+        dir_name = yield # "dir_name = /direct"
+        g = os.walk(dir_name)
+        for i in g :
+            for j in i[-1]:
+                file_path = '%s\\%s' %(i[0], j)
+                generator.send(file_path) #将file_path传出去,用opener来接收这个send
+
+@init
+def opener(generator):
+    '''
+    打开文件,获取文件句柄
+    '''
+    while True:
+        file_path = yield
+        with open(file_path) as f:
+            generator.send((file_path,f)) #send可以传多个值，但是必须是元组的形式(file_path,f)
+
+@init
+def cat(generator):
+    '''
+    读取文件内容
+    '''
+    while True:
+        file_path, f = yield
+        for line in f:
+            generator.send((file_path,f))
+
+@init
+def grep(pattern, generator):
+    '''
+    过滤一行内容中有无target_string,这道例子中过滤一行内容中有无target_string是python
+    '''
+    while True:
+        file_path, line = yield
+        if pattern in line:
+            generator.send(file_path)
+
+@init
+def printer():
+    '''
+    打印文件路径
+    '''
+    while True:
+        file_path = yield
+        print(file_path)
+
+#调用阶段
+
+g = search(opener(cat(grep(target_string,printer())))))
+g.send(/direct)
+
+#-------------------------------------------------------
+补充知识：如何获取文件的绝对路径
+import os
+os.walk('/direct') #是个生成器
+g = os.walk('/direct')
+next(g)
+next()执行一次会输出这个路径"下一层"有哪些子文件和子文件夹
+#-------------------------------------------------------
+#-------------------------------------------------------
+所以search函数大概思路如下：
+import os
+g = os.walk('/direct')
+
+for i in g :
+    for j in i[-1]:
+        file_path = '%s\\%s' %(i[0], j)
+#-------------------------------------------------------
+
+面向过程的编程思想，流水线式的编程思想，在设计程序时，需要把整个流程设计出来
+优点：
+    1、体系结构更加清晰
+    2、简化程序的复杂度
+缺点：
+    1、可扩展性及其的差，所以面向对象的应用场景是不需要经常变动的软件
+
+------>32、列表解析与生成器表达式
+列表生成式
+传统方法：
+egg_list = []
+for i in range(100):
+    egg_list.append('egg%s' %i)
+print(egg_list)
+
+列表生成式：
+l = ['egg%s' %i for i in range(100)]
+print(l)
+
+升级：
+l = [1,2,3,4]
+s = 'hello'
+
+l_new = [(num,si) for num in l for s1 in s]
+print(l_new)
+
+等同于：
+l_new = []
+for num in l :
+    for s1 in s:
+        t = (num,s1)
+        l_new.append(t)
+        print(l_new)
+
+生成器表达式：每次next生成一个值，节省内存
+g = l = ('egg%s' %i for i in range(100))
+print(next(g))
+print(next(g))
+print(next(g))
+
+应用实例：将一个大文件的每行左右两端的空格删除掉
+传统方法：将文件的内容都读进内存中
+f = open('a.txt')
+l = []
+for line in f:
+    line = line.strip()
+    l.append(line)
+print(l)
+
+改写：用列表生成式的方式
+f = open('a.txt')
+g = l_new = (line.strip for line in f)
+l = list(g) #若list后跟一个可迭代的对象，则就会将可迭代对象里的每一个值生成一个列表
+print(l)
+
+声明式编程
+product_list.txt
+    apple 10 3
+    tesla 1000000 1
+    mac 3000 2
+    lenovo 30000 3
+    chicken 10 3
+
+money_l = []
+with open('product_list.txt')as f:
+    for line in f:
+        goods = line.split()
+        res = float(goods[-1]) * float(goods[-2])
+        money_l.append(res)
+print(sum(money_l))
+
+声明式编程方式改写：
+f = open('product_list.txt')
+g=(float(line.split()[-1] * float(line.split()[-2]) for line in f)
+print(sum(g))
+
+模拟数据库查询：
+product_list.txt
+    apple 10 3
+    tesla 1000000 1
+    mac 3000 2
+    lenovo 30000 3
+    chicken 10 3
+
+将上面的文件查询出列表中套字典的方式
+res = []
+with open('product_list.txt')as f:
+    for line in f:
+        l = line.split()
+        d = {}
+        d['name'] = l[0]
+        d['price'] = l[1]
+        d['count'] = l[2]
+        res.append(d)
+print(res)
+
+声明式编程方式改写：
+with open('product_list.txt')as f:
+    res = (line.split() for line in f)
+    dic_g = ({'name':i[0], 'price':i[1], 'count':i[2]}for i in res)
+    print(next(dic_g))
+
+------>33、上节课复习
+列表解析(列表生成式)
+声明式编程
+l = [expression for item1 in iterable1 if condition1
+                for item2 in iterable2 if condition2
+                for item3 in iterable3 if condition3
+                ……
+                for itemN in iterableN if conditionN
+        ]
+
+生成器表达式
+g = (expression for item1 in iterable1 if condition1
+                for item2 in iterable2 if condition2
+                for item3 in iterable3 if condition3
+                ……
+                for itemN in iterableN if conditionN
+        )
+
+------>34、35、36内置函数123
+abs():求绝对值
+all():对所有课迭代参数进行布尔判断，全部为True则为True，否则为False
+any():对所有课迭代参数进行布尔判断，任一为True则为True，全False为False
+sum():求和
+byes():将字符串转化为字节类型
+str():转化为字符串
+list():转化为列表
+tuple():转化为元组
+dict():转化为字典
+set():转化为可变集合
+frozenset():转化为不可变集合
+callable():是否可以被调用
+complex():
+    x = complex(1-2j)
+    print(x.real)
+    print(x.imag)
+    虚数-real实部、imag虚部
+type():判断类型，适用于所有类型
+isinstance():判断身份，适用于所有类型
+defattr():
+hasattr():
+getattr():
+setattr():
+divmod():取整数，可用于前端分页
+enumerate():枚举
+hash():将参数转换为其hash值
+hex():十六进制
+oct():八进制
+filter():
+map():
+
+匿名函数：
+def get_value(k):
+    return salaries[k]
+
+f = lambda k:salaries[k]
+print(f)
+
+zip():
+l1 = [1,2,3]
+s = 'hel'
+res = zip(l1, s) #迭代器
+print(zip(l1, s))
+>>>(1, 'h')
+>>>(2, 'e')
+>>>(3, 'l')
+
+sorted():排序 返回值是列表，默认升序—asc升序、desc降序
+l = [3,4,1,0,9,10]
+降序
+sorted(l,reverse = True)
+
+------>37、map reduce filter
+map()
+映射
+l = [1,2,3,7,5]
+m = map(lambda item:item**2,l)
+print(m)
+print(list(m))
+
+name_l = ['alex', 'egon, ''yuanhao', 'wupeiqi']
+map(lambda name:name+'add', name_l)
+print(list(m))
+
+reduce()
+合并结果
+l = list(range(100))
+reduce(lambda x,y:x+y,l)
+
+filter()
+过滤
+name_l = [
+    {'name':'egon', 'age':18}
+    {'name':'dragonfire', 'age':18000}
+    {'name':'tom', 'age':12348}
+     ]
+filter(lambda d:d['age'] > 100, name_l)
+
+------>38、内置函数终结
+其他内置函数
+pow(x,y,z) x ** y % z
+repr()
+reversed()反转
+round()四舍五入
+slice()切片
+vars() 打印变量，无参数的时候与locals相同
+locals() 打印局部变量
+__import__('string') 其中string是模块名，__import__可以将字符串当做参数进行模块导入
+
+------>39、上节课复习
+------>40、round修正
+原则：四舍六入五留双
+round(11.5)
+>>>12
+round(12.5)
+>>>12
+
+------>41、递归part1
+迭代：重复做某件事
+递归：自己调用自己，函数的嵌套调用(自己)
+
+age(5) = age(4) + 2
+age(4) = age(3) + 2
+age(3) = age(2) + 2
+age(2) = age(1) + 2
+age(1) = 10
+——>
+n = 1  age = 10
+n > 1  age = age(n-1) + 2
+
+所以可以将上面的逻辑写成函数：
+def age(n):
+    if n == 1:
+        return 10
+    else:
+        return age(n-1)+2
+
+print(age(5))
+
+>>>18
+
+------>42、43、递归part2、二分法
+查看系统递归深度限制
+import sys
+sys.getrecursionlimit()
+
+递归的原则：
+1、必须有一个明确的结束条件
+2、每次进入更深一层递归时，问题规模相比上次递归都应有所减少
+3、递归效率不高，递归层次过多会导致毡溢出（在计算机中，函数调用是通过栈stack这种数据结构实现的，
+    每当进入一个函数调用，栈就会加一层栈帧，每当函数返回，栈就会减一层栈帧、由于栈的大小不是无限的，
+    所以，递归调用的次数过多，会导致栈溢出）
+
+例：需求-用户输入一个数，要求找出用户所输入的数是哪个
+data = [1,2,3,4,5,6,,7,9,11,14,16,17,18,20,22,24,27,29,31,35]
+num = 17
+while True:
+    if num == data[i]:
+        print('Find it !')
+        break
+    i+=1
+
+用递归的方法：(二分查找实例)
+data = [1,2,3,4,5,6,,7,9,11,14,16,17,18,20,22,24,27,29,31,35]
+def search(num, data):
+    print(data)
+    if len(data) > 1:
+        mid_index = int(len(data)/2)
+        mid_value = data[mid_index]
+        if num > mid_value:
+            #num在列表的右边
+            data = data[mid_index:]
+            search(num, data)
+        elif num < mid_value:
+            #num在列表的左边
+            data = data[:mid_index]
+            search(num, data)
+        else:
+            print('Find it !')
+            return
+    else:
+        print('====>',data)
+search(17, data)
+
+------>44、函数式编程介绍
+面向过程式编程：流水线式
+函数式编程特点：
+1、不修改外部的状态，一个输入对应一个输出
+2、代码精简
+
+------>45、面向对象的程序设计介绍
+与面向过程一样都是不同的编程风格
+
+------>*重要*46、初识类和对象
+在python3中类型就是类
+
+先定义类在产生相对应的对象，也就是现有了概念再有了实体
+
+class Garen:
+    camp = 'Demacia'
+    def attack(self):
+        print('attack')
+
+#如何使用类
+方式一：实例化
+x = int(10)
+print(10)
+
+obj = Garen()
+print(obj)
+
+方式二：引用类的类的变量和类的函数
+Garen.camp
+
+#如何使用实例
+class Garen:
+    camp = 'Demacia'
+    def __init__(self, nickname):
+        self.nick = nickname
+    def attack(self):
+        print('attack')
+
+g1 = Garen('草丛伦') #会自动触发__init__函数
+g2 = Garen('猥琐伦')
+
+Garen.attack(123) #此处必须传参数，因为调用的是函数
+
+调用绑定方法，会把自己作为第一个参数传入
+g1.attack() #此处不需传参就可以调用，系统会将self = g1，因为调用的是实例化后的g1对象
+所以，只要是有对象进行调用，就会触发自动传值，将对象作为第一个对象传入，也就是将g1传入self
+
+总结：
+类：第一种用途-实例化
+    第二种用途-引用名字(类名.变量名、类名.函数名)
+实例：引用名字(实例名.类的变量，实例名.绑定方法，实例名.实例自己的变量名)
+
+类的变量-增删改查
+Garen.camp #查
+Garen.camp = 'ABC' #，改
+def Garen.camp #删
+Garen.x = 1 #增
+
+对象变量-增删改城
+g1 = Garen('alex') #查
+g1.nick = 'abc' #改
+def g1.del #删
+g1.sex = 'male' #增
+
+
+
+
+
