@@ -186,3 +186,6 @@ d = {'2': ['Elijah Yang', '26', '13650000000', 'IT', '2015-07-15'], '1': ['Alex 
 # else:
 #     print('F')
 
+str = '1,Alex_Li,22,13651054608,IT,2013-04-01,'
+
+print(len(str.split(',')))

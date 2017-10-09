@@ -117,4 +117,9 @@ __date__ = "2017/6/18 22:59"
 # listfile=os.listdir(info)
 # print(listfile)
 
+str = "{"backend": "test.oldboy.org","record":{"server": "100.1.1.9","weight": 20,"maxconn": 30}}"
+
+dict = dict(str)
+
+print(dict)
 
