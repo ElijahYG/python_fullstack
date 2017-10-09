@@ -1,77 +1,13 @@
 # python_fullstack
 ## [我的博客](http://blog.csdn.net/dragonyangang "我的博客")
 
-# 第二模块：作业1-6：用户登陆
-  
-    Author: Elijah
-    Time: 2017-05-31
-    Function: 模拟登陆
-      1. 用户输入帐号密码进行登陆
-      2. 用户信息保存在文件内
-      3. 用户密码输入错误三次后锁定用户
-    Need Environment：Python 3.5 、PyCharm
-    Feature：
-      1、开始提供用户选择功能界面：登陆 or 注册
-      2、用户在输入用户名或者密码时可以中断退出
-      3、用户名和密码是对应的，所以判断用户和密码是否正确时要对应判断
-      4、用户注册时要判断用户名是否已经被注册，已经被注册的不能再次注册
-      5、单独有一个文件存储被锁定的用户名，以提供用户检查
-    Important py file：getpass
-    How To：Execute directly
-
-- 个人博客地址: http://blog.csdn.net/dragonyangang/article/details/72835866
-
-# 第二模块：作业2：三级目录
-
-    Author: Elijah
-    Time: 2017-05-31
-    Function: 三级菜单：
-      1. 运行程序输出第一级菜单
-      2. 选择一级菜单某项，输出二级菜单，同理输出三级菜单
-      3. 返回上一级菜单和顶部菜单
-      4. 菜单数据保存在文件中
-    Need Environment：Python 3.5 、PyCharm
-    Feature：
-    Important py file：getpass
-    How To：Execute directly
-    
-- 个人博客地址: http://blog.csdn.net/dragonyangang/article/details/72851011
-
-# 第二模块：作业3：购物车
-
-    Author: Elijah
-    Time: 2017-06-07
-    Function:购物车
-      1. 商品信息- 数量、单价、名称
-      2. 用户信息- 帐号、密码、余额
-      3. 用户可充值
-      4. 购物历史信息
-      5. 允许用户多次购买，每次可购买多件
-      6. 余额不足时进行提醒
-      7. 用户退出时 ，输出当次购物信息
-      8. 用户下次登陆时可查看购物历史
-      9. 商品列表分级显示
-    Need Environment：Python 3.5 、PyCharm
-    Feature：
-      1、实现了基本登陆功能，包括验证用户是否存在、是否被锁定
-      2、用户成功登陆后可进入购物车功能
-      3、购物车实现了商品分级显示
-      4、每次用户登陆时显示历史购物信息
-      5、用户余额不足时可以进行充值
-      6、用户可以多次购买多件商品
-      7、用户退出时显示本次购物商品信息
-    Important py file：getpass,time
-    How To：Execute directly
-    
-- 个人博客地址: http://blog.csdn.net/dragonyangang/article/details/72862830
-
 # 第三模块：作业1：HAproxy配置文件操作
     Readme
     Author: Elijah
     Time: 2017-06-18
     Function:HAproxy配置文件操作
         1. 根据用户输入输出对应的backend下的server信息
-         2. 可添加backend 和sever信息
+        2. 可添加backend 和sever信息
         3. 可修改backend 和sever信息
         4. 可删除backend 和sever信息
         5. 操作配置文件前进行备份
@@ -80,7 +16,15 @@
     Move：
     Feature：
     Important py file：os
-    How To：Execute directly
+    How To：
+    操作流程如下：
+    1、程序运行后会显示出目前的配置文件信息，用户选择功能编号进入相对应功能模块
+    2、添加backend信息：用户将要添加的backend所有信息用字典形式输入
+        示例：{"backend": "test.oldboy.org","record":{"server name": "100.1.1.9","server ip": "100.1.1.9","weight": 20,"maxconn": 30}}
+        同时也满足添加server信息时，如果backend域名地址已经存在则修改;如果backend不存在则创建；
+    3、修改backend信息：用户同样将要修改的backend所有信息用字典形式输入，程序会校验是否有对应的backend名称，有则正常修改，没有则提示用户有误
+    4、删除backend信息：程序会显示出目前配置文件中存在的backend信息，用户输入想要删除的backend信息即可，如果域名输入有误，则提示用户重新输入
+    5、查询backend信息：用户输入要查询的backend信息，会显示出该backend信息下的具体server配置参数，如果用户输入错误会有相对应提示
     个人发挥：用模块化的编程思想
 - 个人博客地址：http://blog.csdn.net/dragonyangang/article/details/74067566
 
@@ -88,7 +32,7 @@
     Readme
     Author: Elijah
     Time: 2017-06-20
-    Function:员工信息表程序
+    Function:员工信息表程序——要求
         可进行模糊查询，语法至少支持下面3种:
             select name,age from staff_table where age > 22
             select  * from staff_table where dept = "IT"
@@ -97,7 +41,7 @@
         可创建新员工纪录，以phone做唯一键，staff_id需自增
         可删除指定员工信息纪录，输入员工id，即可删除
         可修改员工信息，语法如下:
-         UPDATE staff_table SET dept="Market" WHERE where dept = "IT"
+        UPDATE staff_table SET dept="Market" WHERE where dept = "IT"
         1. 支持至少三种方法的select查询，并在最后显示查询到的条数。
         2. 创建新员工记录，以phone为唯一键，staff_id自增
         3. 输入员工id可删除指定员工信息记录
@@ -106,7 +50,12 @@
     Move：
     Feature：
     Important py file：re、time
-    How To：Execute directly
+    How To：操作流程如下：
+    1、程序运行后用户根据语句语法说明进行SQL输入，支持增、删、改、查操作，程序通过判断用户输入的字符串关键字分别进入不懂的操作模块
+    2、添加SQL：以insert开头的字符串会定位置添加功能，程序会判断用户输入的表文件是否在当前目录下，若不在则提示错误
+    3、删除SQL：用户输入delete关键字后系统会列出当前默认staff_table表中的行项目，用户输入相对应的编号进行删除行项目操作
+    4、修改SQL：以update开头进行对应功能，判断用户set字段名和值与查询条件字段和对应值
+    5、查询SQL：支持要求中的三种语法
     个人发挥：用模块化的编程思想
 - 个人博客地址：http://blog.csdn.net/dragonyangang/article/details/74069329
 
@@ -128,7 +77,19 @@
     Move：
     Feature：
     Important py file：re、datetime
-    How To：Execute directly
+    How To：
+    操作流程如下：
+    1、程序运行后用户选择以不同身份登录，用户身份or管理员身份，
+    2、用户操作：进入时用户输入用户名密码进行登录，校验用户文件中是否存在，若失败3次则加入冻结名单，需要管理员才能解冻，若成功则会显示5项功能：
+        ①存款：用户输入存款金额进行对应账号的存款操作，相应对将操作明细记录到账单中
+        ②取款：用户输入取款金额进行取款，若取款金额大于当前余额+用户额度则会提示用户不能取款，并显示该用户当前余额，等待重新输入取款金额
+        ③转账：会列举出该用户可以转账的用户清单以供选择，选择完成后输入转账金额，若转账金额超过用户当前余额则会提出金额超出，重新等待用户选择转账用户
+        ④显示账单：用户输入欲查询的年月，如果输入正确则会显示出对应年月用户的所有存、取款、转账等对应操作的金额和余额明细
+        ⑤修改密码：提示用户输入当前密码，正确后等待用户设置新密码
+    3、管理员操作：默认只有一个管理员账号admin和密码admin123，输入正确后进入管理员功能区，包括3项功能：
+        ①添加用户：等待管理员输入新用户的用户名和密码进行添加，同时设置用户额度默认为10000
+        ②冻结用户：显示当前系统存在的用户，并等待管理员输入欲冻结的用户，完成后写入冻结用户清单文件中以备用户登录时进行校验
+        ③设定用户额度：显示当前系统存在的用户，等待管理员选择并设置该用户新额度        
     个人发挥：用模块化的编程思想
 - 个人博客地址：http://blog.csdn.net/dragonyangang/article/details/74071248
 

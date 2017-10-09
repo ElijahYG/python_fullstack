@@ -148,7 +148,8 @@ __date__ = "2017/6/21 13:55"
 #         info_display()
 #     except IndexError as e:
 #         print("【%s】，请输入正确的格式"%e)              #如果用户输入的格式不正确，就打印提示
-d = {'2': ['Elijah Yang', '26', '13650000000', 'IT', '2015-07-15'], '1': ['Alex Li', '22', '13651054608', 'IT', '2013-04-01']}
+d = {'2': ['Elijah Yang', '26', '13650000000', 'IT', '2015-07-15'],
+     '1': ['Alex Li', '22', '13651054608', 'IT', '2013-04-01']}
 # l = list(d.keys())
 # print(len(l))
 # ------------------------------
@@ -186,6 +187,43 @@ d = {'2': ['Elijah Yang', '26', '13650000000', 'IT', '2015-07-15'], '1': ['Alex 
 # else:
 #     print('F')
 
-str = '1,Alex_Li,22,13651054608,IT,2013-04-01,'
+# str = '1,Alex_Li,22,13651054608,IT,2013-04-01'
 
-print(len(str.split(',')))
+memory_dict = {'1': ['Alex_Li', '22', '13651054608', 'IT', '2013-04-01'],
+               '2': ['B', '24', '13651055342', 'IT', '2017-11-21']}
+# with open('test_table.txt', mode='w', encoding='utf-8') as f:
+#     for k, v in memory_dict.items():
+#         num = len(memory_dict[k])
+#         f.write(k + ',')
+#         for i in range(num):
+#             f.write(v[i] + ',')
+#         f.write('\n')
+
+# -------------------------------增加-------------------------------------
+# str = 'insert into table1 VALUES Yang,26,18310309658,IT,2014-07-05'
+# fields = str.split('VALUES')[1]
+# print(fields.split(','))
+# memory_dict[len(memory_dict.keys())+1] = fields.split(',')
+#
+# print(memory_dict)
+# -------------------------------增加-------------------------------------、
+
+# input_field = 'name'
+# field_dict = {'name': 0, 'age': 1, 'phone': 2, 'dept': 3, 'enroll_date': 4}
+# for k, v in memory_dict.items():
+#     print(v[field_dict[input_field]])
+
+str = "UPDATE Person SET FirstName = 'Fred' WHERE LastName = 'Wilson' "
+a = str[str.lower().index(' ',str.lower().index('set')):str.lower().index('where')]
+a_1 = a.split('=')[0]
+a_2 = a.split('=')[1].replace('\'','')
+b = str.lower().split('where')[1]
+b_1 = b.split('=')[0]
+b_2 = b.split('=')[1]
+print(a)
+print(a_1)
+print(a_2)
+
+# str = "SELECT * FROM staff_table WHERE name = wangwu"
+# a = str.lower().split('from')[0]
+# print(a)

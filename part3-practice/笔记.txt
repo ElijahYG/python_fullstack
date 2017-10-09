@@ -566,7 +566,7 @@ for k in d: # d.__iter__()
 
 查看可迭代对象与迭代器对象
 
-from  clooections import iterable,iterator
+from  collections import iterable,iterator
 
 isinstance(i,iterator)
 
@@ -704,7 +704,7 @@ e = eater('alex')
 print(e)
 print(next(e))
 
-如果函数中是通过表达式的形式来使用yield时，可以给yield传值
+如果函数中是通过表达式的形式来使用yield时，可以给yield传值send()方法——称作协程函数
 def eater(name):
     print('%s start to eat food' %name)
     while True:
@@ -987,6 +987,7 @@ g = (expression for item1 in iterable1 if condition1
         )
 
 ------>34、35、36内置函数123
+查看内置函数：dir(__builtins__)
 abs():求绝对值
 all():对所有课迭代参数进行布尔判断，全部为True则为True，否则为False
 any():对所有课迭代参数进行布尔判断，任一为True则为True，全False为False
@@ -1042,13 +1043,13 @@ sorted(l,reverse = True)
 ------>37、map reduce filter
 map()
 映射
-l = [1,2,3,7,5]
-m = map(lambda item:item**2,l)
+lst = [1,2,3,7,5]
+m = map(lambda item:item**2,lst)
 print(m)
 print(list(m))
 
-name_l = ['alex', 'egon, ''yuanhao', 'wupeiqi']
-map(lambda name:name+'add', name_l)
+name_l = ['alex', 'egon','yuanhao', 'wupeiqi']
+m = map(lambda name:name+'add', name_l)
 print(list(m))
 
 reduce()
@@ -1067,10 +1068,10 @@ filter(lambda d:d['age'] > 100, name_l)
 
 ------>38、内置函数终结
 其他内置函数
-pow(x,y,z) x ** y % z
-repr()
+pow(x,y,z) x ** y % z   #函数是计算x的y次方，如果z在存在，则再对结果进行取模，其结果等效于pow(x,y) %z
+repr()  函数将对象转化为供解释器读取的形式，返回一个对象的 string 格式
 reversed()反转
-round()四舍五入
+round()原则：四舍六入五留双
 slice()切片
 vars() 打印变量，无参数的时候与locals相同
 locals() 打印局部变量

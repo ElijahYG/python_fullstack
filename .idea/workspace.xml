@@ -3,10 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="376a1e5d-7f68-436a-b144-223605691d32" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part3-homework_1/haproxy.conf" afterPath="$PROJECT_DIR$/part3-homework_1/haproxy.conf" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part3-homework_1/haproxy_backup.conf" afterPath="$PROJECT_DIR$/part3-homework_1/haproxy_backup.conf" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part3-homework_1/homework1_1.py" afterPath="$PROJECT_DIR$/part3-homework_1/homework1_1.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part3-homework_2/homework2_1.py" afterPath="$PROJECT_DIR$/part3-homework_2/homework2_1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part3-homework_2/staff_table.txt" afterPath="$PROJECT_DIR$/part3-homework_2/staff_table.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part3-homework_3/homework3_1.py" afterPath="$PROJECT_DIR$/part3-homework_3/homework3_1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part3-homework_3/root1_bill.txt" afterPath="$PROJECT_DIR$/part3-homework_3/root1_bill.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part3-homework_3/user_info.txt" afterPath="$PROJECT_DIR$/part3-homework_3/user_info.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part3-homework_3/user_locked.txt" afterPath="$PROJECT_DIR$/part3-homework_3/user_locked.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part3-practice/practise-1.py" afterPath="$PROJECT_DIR$/part3-practice/practise-1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/part3-practice/笔记.txt" afterPath="$PROJECT_DIR$/part3-practice/笔记.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/part3-homework_1/test1.py" afterPath="$PROJECT_DIR$/part3-homework_1/ceshi.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/part3-homework_2/test2.py" afterPath="$PROJECT_DIR$/part3-homework_2/ceshi.py" />
     </list>
     <ignored path="python_fullstack.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -21,28 +31,53 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/python_fullstack$homework_5.coverage" NAME="homework_5 Coverage Results" MODIFIED="1496239234367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_1" />
     <SUITE FILE_PATH="coverage/python_fullstack$homework_2.coverage" NAME="homework_2 Coverage Results" MODIFIED="1496237985679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_1" />
-    <SUITE FILE_PATH="coverage/python_fullstack$homework1_4.coverage" NAME="homework1_4 Coverage Results" MODIFIED="1496815973216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_1" />
-    <SUITE FILE_PATH="coverage/python_fullstack$homework1_1.coverage" NAME="homework1_1 Coverage Results" MODIFIED="1497972135557" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$cs5.coverage" NAME="cs5 Coverage Results" MODIFIED="1504086424665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part4-homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$homework1_1_server.coverage" NAME="homework1_1-server Coverage Results" MODIFIED="1506959288630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_1/src" />
     <SUITE FILE_PATH="coverage/python_fullstack$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1498296561784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-homework_2" />
+    <SUITE FILE_PATH="coverage/python_fullstack$homework3_1.coverage" NAME="homework3_1 Coverage Results" MODIFIED="1499234273231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-homework_3" />
+    <SUITE FILE_PATH="coverage/python_fullstack$ceshi__1_.coverage" NAME="ceshi (1) Coverage Results" MODIFIED="1505919355126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_1/src" />
+    <SUITE FILE_PATH="coverage/python_fullstack$socketserver.coverage" NAME="socketserver Coverage Results" MODIFIED="1506007875724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Python3.5.2/Lib" />
+    <SUITE FILE_PATH="coverage/python_fullstack$homework1_5.coverage" NAME="homework1_5 Coverage Results" MODIFIED="1496816061910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$Unittests_in_test1_py.coverage" NAME="Unittests in test1.py Coverage Results" MODIFIED="1499223265431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$practise_1.coverage" NAME="practise-1 Coverage Results" MODIFIED="1501082661382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-practice" />
+    <SUITE FILE_PATH="coverage/python_fullstack$Unittests_in_test2_py.coverage" NAME="Unittests in test2.py Coverage Results" MODIFIED="1499251597480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-homework_2" />
+    <SUITE FILE_PATH="coverage/python_fullstack$client_cs.coverage" NAME="client-cs Coverage Results" MODIFIED="1505373833624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$main.coverage" NAME="main Coverage Results" MODIFIED="1507461786137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_2/example" />
+    <SUITE FILE_PATH="coverage/python_fullstack$server.coverage" NAME="并发server Coverage Results" MODIFIED="1506008758074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$homework1_1_client.coverage" NAME="homework1_1-client Coverage Results" MODIFIED="1506959397673" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_1/src" />
+    <SUITE FILE_PATH="coverage/python_fullstack$homework1_1.coverage" NAME="homework1_1 Coverage Results" MODIFIED="1503580229217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part4-homework_1" />
     <SUITE FILE_PATH="coverage/python_fullstack$abc.coverage" NAME="abc Coverage Results" MODIFIED="1496413554421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_2" />
     <SUITE FILE_PATH="coverage/python_fullstack$homework_1.coverage" NAME="homework_1 Coverage Results" MODIFIED="1496237282099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_1" />
-    <SUITE FILE_PATH="coverage/python_fullstack$homework3_1.coverage" NAME="homework3_1 Coverage Results" MODIFIED="1498845325482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-homework_3" />
-    <SUITE FILE_PATH="coverage/python_fullstack$homework1_5.coverage" NAME="homework1_5 Coverage Results" MODIFIED="1496816061910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_1" />
     <SUITE FILE_PATH="coverage/python_fullstack$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1497534316354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-practice" />
-    <SUITE FILE_PATH="coverage/python_fullstack$practise_1.coverage" NAME="practise-1 Coverage Results" MODIFIED="1496926215624" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-practice" />
-    <SUITE FILE_PATH="coverage/python_fullstack$Unittests_in_test1_py.coverage" NAME="Unittests in test1.py Coverage Results" MODIFIED="1498885000844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-practice" />
-    <SUITE FILE_PATH="coverage/python_fullstack$homework_4.coverage" NAME="homework_4 Coverage Results" MODIFIED="1496238911015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_1" />
-    <SUITE FILE_PATH="coverage/python_fullstack$homework2_2.coverage" NAME="homework2_2 Coverage Results" MODIFIED="1496819318160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_2" />
+    <SUITE FILE_PATH="coverage/python_fullstack$level_1_server.coverage" NAME="level_1-server Coverage Results" MODIFIED="1505653819511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_1" />
     <SUITE FILE_PATH="coverage/python_fullstack$homework1_6.coverage" NAME="homework1_6 Coverage Results" MODIFIED="1496816300744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_1" />
     <SUITE FILE_PATH="coverage/python_fullstack$test1__1_.coverage" NAME="test1 (1) Coverage Results" MODIFIED="1497971889138" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$cs4.coverage" NAME="cs4 Coverage Results" MODIFIED="1502888066629" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part4-homework_1" />
     <SUITE FILE_PATH="coverage/python_fullstack$homework_6.coverage" NAME="homework_6 Coverage Results" MODIFIED="1496324618005" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_1" />
-    <SUITE FILE_PATH="coverage/python_fullstack$homework2_1.coverage" NAME="homework2_1 Coverage Results" MODIFIED="1498481649710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-homework_2" />
+    <SUITE FILE_PATH="coverage/python_fullstack$homework2_1.coverage" NAME="homework2_1 Coverage Results" MODIFIED="1499253517116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-homework_2" />
+    <SUITE FILE_PATH="coverage/python_fullstack$level_1_client.coverage" NAME="level_1-client Coverage Results" MODIFIED="1505653840086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$cs.coverage" NAME="cs Coverage Results" MODIFIED="1505666362755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-practice" />
+    <SUITE FILE_PATH="coverage/python_fullstack$ceshi.coverage" NAME="ceshi Coverage Results" MODIFIED="1507464944494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_1/src" />
+    <SUITE FILE_PATH="coverage/python_fullstack$.coverage" NAME="客户端 Coverage Results" MODIFIED="1504675018383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-practice" />
+    <SUITE FILE_PATH="coverage/python_fullstack$level_2_client.coverage" NAME="level_2-client Coverage Results" MODIFIED="1505374353242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$homework_4.coverage" NAME="homework_4 Coverage Results" MODIFIED="1496238911015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$homework2_2.coverage" NAME="homework2_2 Coverage Results" MODIFIED="1496819318160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_2" />
+    <SUITE FILE_PATH="coverage/python_fullstack$Unittests_in_cs_py.coverage" NAME="Unittests in cs.py Coverage Results" MODIFIED="1505666313995" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-practice" />
     <SUITE FILE_PATH="coverage/python_fullstack$test3.coverage" NAME="test3 Coverage Results" MODIFIED="1498746402747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-homework_3" />
-    <SUITE FILE_PATH="coverage/python_fullstack$cs.coverage" NAME="cs Coverage Results" MODIFIED="1498885602468" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-practice" />
     <SUITE FILE_PATH="coverage/python_fullstack$test1__2_.coverage" NAME="test1 (2) Coverage Results" MODIFIED="1498025116354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-homework_2" />
+    <SUITE FILE_PATH="coverage/python_fullstack$client.coverage" NAME="并发client Coverage Results" MODIFIED="1506008761058" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$level_2_server.coverage" NAME="level_2-server Coverage Results" MODIFIED="1505374348155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$homework1_4.coverage" NAME="homework1_4 Coverage Results" MODIFIED="1496815973216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1507474872325" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_2/bin" />
+    <SUITE FILE_PATH="coverage/python_fullstack$SSH_client.coverage" NAME="SSH-client Coverage Results" MODIFIED="1507446804305" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_2" />
+    <SUITE FILE_PATH="coverage/python_fullstack$server_cs.coverage" NAME="server-cs Coverage Results" MODIFIED="1505373831854" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$modify.coverage" NAME="modify Coverage Results" MODIFIED="1499226619999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$homework1_1_rewrite.coverage" NAME="homework1_1-rewrite Coverage Results" MODIFIED="1504098103215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part4-homework_1" />
     <SUITE FILE_PATH="coverage/python_fullstack$homework_3.coverage" NAME="homework_3 Coverage Results" MODIFIED="1496238743022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_1" />
-    <SUITE FILE_PATH="coverage/python_fullstack$homework3_1_rewrite.coverage" NAME="homework3_1-rewrite Coverage Results" MODIFIED="1496839330953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_3" />
+    <SUITE FILE_PATH="coverage/python_fullstack$SSH_server.coverage" NAME="SSH-server Coverage Results" MODIFIED="1507443466526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part5-homework_2" />
     <SUITE FILE_PATH="coverage/python_fullstack$homework1_3.coverage" NAME="homework1_3 Coverage Results" MODIFIED="1496815905082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/homework_1" />
+    <SUITE FILE_PATH="coverage/python_fullstack$homework3_1_rewrite.coverage" NAME="homework3_1-rewrite Coverage Results" MODIFIED="1499612626383" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-homework_3" />
+    <SUITE FILE_PATH="coverage/python_fullstack$homework2_1_rewrite.coverage" NAME="homework2_1-rewrite Coverage Results" MODIFIED="1499611999271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/part3-homework_2" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -61,7 +96,7 @@
     <favorites_list name="python_fullstack" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,11 +107,47 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>取款</find>
-      <find>存款</find>
-      <find>global_staffdict</find>
-      <find>not flag</find>
+      <find>协程</find>
+      <find>迭代器</find>
+      <find>很好</find>
+      <find>os</find>
+      <find>['</find>
+      <find>']</find>
+      <find>上课学习</find>
+      <find>差</find>
+      <find>、</find>
+      <find>反射</find>
+      <find>asset</find>
+      <find>head_dic</find>
+      <find>extra_gains</find>
+      <find>learn_courses</find>
+      <find>max_packet_size</find>
+      <find>operation</find>
+      <find>用户登陆成功！进入客户端验证阶段</find>
+      <find>客户端验证成功</find>
+      <find>filedialog</find>
+      <find>askopenfilename</find>
+      <find>get_filepath</find>
+      <find>walk</find>
+      <find>超过</find>
+      <find>对不起，服务器端没有收到报头结构信息！</find>
+      <find>getsize</find>
+      <find>split('/')[-1]</find>
+      <find>interactive(choose_host_list)</find>
+      <find>choose_host_list</find>
+      <find>settings</find>
+      <find>put</find>
     </findStrings>
+    <replaceStrings>
+      <replace>GLOBAL_VAR</replace>
+      <replace>GLOBAL_STAFFDICT</replace>
+      <replace>tab_name = input_sql.split()[3] + '.txt'</replace>
+      <replace>.</replace>
+      <replace>upload</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>F:\Python\51CTO-Python全栈微职位\python_fullstack\part5-homework_1\files</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,57 +155,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/homework_1/homework_4.py" />
-        <option value="$PROJECT_DIR$/homework_1/homework_5.py" />
-        <option value="$PROJECT_DIR$/homework_2/menu.py" />
-        <option value="$PROJECT_DIR$/homework_2/test.py" />
-        <option value="$PROJECT_DIR$/homework_2/abc.txt" />
-        <option value="$PROJECT_DIR$/homework_2/abc.py" />
-        <option value="$PROJECT_DIR$/homework_2/menu.txt" />
-        <option value="$PROJECT_DIR$/homework_2/menu_serialize.json" />
-        <option value="$PROJECT_DIR$/homework_2/homework2_1.py" />
-        <option value="$PROJECT_DIR$/homework_3/test_user.txt" />
-        <option value="$PROJECT_DIR$/homework_2/homework2-2.py" />
-        <option value="$PROJECT_DIR$/homework_3/homework3_1.py" />
-        <option value="$PROJECT_DIR$/homework_1/homework1_3.py" />
-        <option value="$PROJECT_DIR$/homework_1/homework1_4.py" />
-        <option value="$PROJECT_DIR$/homework_1/homework1_5.py" />
-        <option value="$PROJECT_DIR$/homework_3/user_locked.txt" />
-        <option value="$PROJECT_DIR$/homework_1/homework1_6.py" />
-        <option value="$PROJECT_DIR$/homework_1/user_locked.txt" />
-        <option value="$PROJECT_DIR$/homework_1/homework1_6-by_teacher.py" />
-        <option value="$PROJECT_DIR$/homework_1/user_info.txt" />
-        <option value="$PROJECT_DIR$/homework_3/cs.py" />
-        <option value="$PROJECT_DIR$/homework_3/user_info.txt" />
-        <option value="$PROJECT_DIR$/homework_3/homework3_1-rewrite.py" />
-        <option value="$PROJECT_DIR$/part3-practice/123.py" />
-        <option value="$PROJECT_DIR$/part3-practice/practise-1.py" />
-        <option value="$PROJECT_DIR$/part3-practice/2017.06.13.txt" />
-        <option value="$PROJECT_DIR$/part3-practice/test.py" />
+        <option value="$PROJECT_DIR$/part3-homework_2/ceshi.py" />
+        <option value="$PROJECT_DIR$/part3-homework_2/homework2_1-rewrite.py" />
+        <option value="$PROJECT_DIR$/part3-homework_1/homework1_1-rewrite.py" />
         <option value="$PROJECT_DIR$/part3-homework_1/haproxy.conf" />
-        <option value="$PROJECT_DIR$/part3-homework_1/haproxy_backup.conf" />
-        <option value="$PROJECT_DIR$/part3-homework_1/haproxy1.conf" />
-        <option value="$PROJECT_DIR$/part3-homework_1/test1.py" />
-        <option value="$PROJECT_DIR$/part3-homework_2/test1.py" />
-        <option value="$PROJECT_DIR$/part3-homework_2/staff_table1.txt" />
-        <option value="$PROJECT_DIR$/part3-homework_2/test2.py" />
-        <option value="$PROJECT_DIR$/part3-homework_3/admin_info.txt" />
-        <option value="$PROJECT_DIR$/part3-homework_2/staff_table.txt" />
-        <option value="$PROJECT_DIR$/part3-homework_3/newuser_bill.txt" />
-        <option value="$PROJECT_DIR$/part3-homework_3/root_bill1.txt" />
-        <option value="$PROJECT_DIR$/part3-homework_3/root_bill.txt" />
-        <option value="$PROJECT_DIR$/part3-homework_3/test3.py" />
-        <option value="$PROJECT_DIR$/part3-homework_3/root2_bill.txt" />
-        <option value="$PROJECT_DIR$/part3-homework_3/root1_bill.txt" />
-        <option value="$PROJECT_DIR$/part3-homework_3/user_locked.txt" />
-        <option value="$PROJECT_DIR$/part3-homework_3/user_info.txt" />
-        <option value="$PROJECT_DIR$/part3-practice/test1.py" />
-        <option value="$PROJECT_DIR$/part3-practice/cs.py" />
-        <option value="$PROJECT_DIR$/part3-practice/笔记.txt" />
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/part3-homework_3/homework3_1.py" />
-        <option value="$PROJECT_DIR$/part3-homework_2/homework2_1.py" />
-        <option value="$PROJECT_DIR$/part3-homework_1/homework1_1.py" />
+        <option value="$PROJECT_DIR$/part4-practice/笔记.txt" />
+        <option value="$PROJECT_DIR$/part3-homework_2/staff_table.txt" />
+        <option value="$PROJECT_DIR$/part3-practice/笔记.txt" />
+        <option value="$PROJECT_DIR$/part3-practice/practise-1.py" />
+        <option value="$PROJECT_DIR$/part4-practice/cs.py" />
+        <option value="$PROJECT_DIR$/part3-homework_3/homework3_1-rewrite.py" />
+        <option value="$PROJECT_DIR$/part4-homework_1/stu001_stuinfo.txt" />
+        <option value="$PROJECT_DIR$/part4-homework_1/cs4.py" />
+        <option value="$PROJECT_DIR$/part4-homework_1/courses_info.txt" />
+        <option value="$PROJECT_DIR$/part4-homework_1/homework1_1.py" />
+        <option value="$PROJECT_DIR$/part4-homework_1/readme.md" />
+        <option value="$PROJECT_DIR$/part4-homework_1/cs5.py" />
+        <option value="$PROJECT_DIR$/part4-homework_1/homework1_1-rewrite.py" />
+        <option value="$PROJECT_DIR$/part5-practice/服务端.py" />
+        <option value="$PROJECT_DIR$/part5-practice/客户端.py" />
+        <option value="$PROJECT_DIR$/part5-practice/笔记.txt" />
+        <option value="$PROJECT_DIR$/part5-homework_1/client-cs.py" />
+        <option value="$PROJECT_DIR$/part5-homework_1/server-cs.py" />
+        <option value="$PROJECT_DIR$/part5-homework_1/level_2-server.py" />
+        <option value="$PROJECT_DIR$/part5-homework_1/level_2-client.py" />
+        <option value="$PROJECT_DIR$/part5-homework_1/homework1_1.py" />
+        <option value="$PROJECT_DIR$/part5-homework_1/多线程server.py" />
+        <option value="$PROJECT_DIR$/part5-homework_1/多线程client.py" />
+        <option value="$PROJECT_DIR$/part5-homework_1/并发client.py" />
+        <option value="$PROJECT_DIR$/part5-homework_1/homework1_1-client.py" />
+        <option value="$PROJECT_DIR$/part5-practice/cs.py" />
+        <option value="$PROJECT_DIR$/part5-homework_1/ceshi.py" />
+        <option value="$PROJECT_DIR$/part5-homework_1/conf/config.txt" />
+        <option value="$PROJECT_DIR$/part5-homework_1/homework1_1-server.py" />
+        <option value="$PROJECT_DIR$/part5-homework_1/并发server.py" />
+        <option value="$PROJECT_DIR$/part5-homework_1/src/homework1_1-server.py" />
+        <option value="$PROJECT_DIR$/part5-homework_1/src/homework1_1-client.py" />
+        <option value="$PROJECT_DIR$/part5-homework_2/homework2_1.py" />
+        <option value="$PROJECT_DIR$/part5-homework_2/SSH-Client.py" />
+        <option value="$PROJECT_DIR$/part5-homework_2/example/setting.py" />
+        <option value="$PROJECT_DIR$/part5-homework_2/example/from_windows.py" />
+        <option value="$PROJECT_DIR$/part5-homework_2/example/main.py" />
+        <option value="$PROJECT_DIR$/part5-homework_2/SSH-server.py" />
+        <option value="$PROJECT_DIR$/part5-homework_2/SSH-client.py" />
+        <option value="$PROJECT_DIR$/part5-homework_2/example/settings.py" />
+        <option value="$PROJECT_DIR$/part5-homework_2/example/core.py" />
+        <option value="$PROJECT_DIR$/part5-homework_2/bin/main.py" />
+        <option value="$PROJECT_DIR$/part5-homework_1/src/ceshi.py" />
+        <option value="$PROJECT_DIR$/part5-homework_2/conf/settings.py" />
+        <option value="$PROJECT_DIR$/part5-homework_2/src/core.py" />
+        <option value="$PROJECT_DIR$/part5-homework_2/readme.md" />
       </list>
     </option>
   </component>
@@ -149,6 +220,26 @@
     <option name="y" value="-9" />
     <option name="width" value="1938" />
     <option name="height" value="1048" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Google App Engine (Python)</id>
+          </State>
+          <State>
+            <id>Pyramid</id>
+          </State>
+          <State>
+            <id>Python</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -165,6 +256,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -179,23 +272,35 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/Python3.5.2/python.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../作业/第4模块-面向对象/2017.08.30-作业反馈修改/day7-第4模块85分作业" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="python_fullstack" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="python_fullstack" />
+      </console-settings>
+    </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\Python\51CTO-Python全栈微职位" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Python\51CTO-Python全栈微职位\python_fullstack\part5-homework_1" />
+      <recent name="F:\Python\51CTO-Python全栈微职位\python_fullstack\part5-homework_2\src" />
+      <recent name="F:\Python\51CTO-Python全栈微职位\python_fullstack\part5-homework_2\example" />
+      <recent name="F:\Python\51CTO-Python全栈微职位\python_fullstack\part5-practice" />
       <recent name="F:\Python\51CTO-Python全栈微职位\python_fullstack\part3-homework_2" />
-      <recent name="F:\Python\51CTO-Python全栈微职位\python_fullstack\part3-homework_1" />
-      <recent name="F:\Python\51CTO-Python全栈微职位\模块二：语言基础【python全栈微职位】\模块二：语言基础\python_fullstack\homework_3" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Python\51CTO-Python全栈微职位\python_fullstack\part5-homework_2\conf" />
+      <recent name="F:\Python\51CTO-Python全栈微职位\python_fullstack\part5-homework_2\bin" />
+      <recent name="F:\Python\51CTO-Python全栈微职位\python_fullstack\part5-homework_2\src" />
+      <recent name="F:\Python\51CTO-Python全栈微职位\python_fullstack\part5-homework_2" />
+      <recent name="F:\Python\51CTO-Python全栈微职位\python_fullstack\part5-homework_1\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -210,94 +315,97 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cs">
-    <configuration default="false" name="homework2_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/part3-homework_2" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/part5-homework_2/example" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_fullstack" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/part3-homework_2/homework2_1.py" />
+      <option name="SCRIPT_NAME" value="F:\Python\51CTO-Python全栈微职位\python_fullstack\part5-homework_2\bin\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="homework3_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="SSH-client" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/part3-homework_3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/part5-homework_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_fullstack" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/part3-homework_3/homework3_1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/part5-homework_2/SSH-client.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="SSH-server" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/part3-homework_3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/part5-homework_2" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_fullstack" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/part3-homework_3/test3.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/part5-homework_2/SSH-server.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in cs.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/part3-practice" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="python_fullstack" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/part3-practice/cs.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method />
-    </configuration>
-    <configuration default="false" name="cs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/part3-practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/part5-homework_2/bin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="python_fullstack" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/part3-practice/cs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/part5-homework_2/bin/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ceshi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/part5-homework_1/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="python_fullstack" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/part5-homework_1/src/ceshi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -486,19 +594,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.homework2_1" />
-      <item index="1" class="java.lang.String" itemvalue="Python.homework3_1" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test3" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in cs.py" />
-      <item index="4" class="java.lang.String" itemvalue="Python.cs" />
+      <item index="0" class="java.lang.String" itemvalue="Python.main" />
+      <item index="1" class="java.lang.String" itemvalue="Python.SSH-client" />
+      <item index="2" class="java.lang.String" itemvalue="Python.SSH-server" />
+      <item index="3" class="java.lang.String" itemvalue="Python.main (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.ceshi" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.cs" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in cs.py" />
-        <item index="2" class="java.lang.String" itemvalue="Python.homework3_1" />
-        <item index="3" class="java.lang.String" itemvalue="Python.test3" />
-        <item index="4" class="java.lang.String" itemvalue="Python.homework2_1" />
+        <item index="0" class="java.lang.String" itemvalue="Python.main (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Python.ceshi" />
+        <item index="2" class="java.lang.String" itemvalue="Python.main" />
+        <item index="3" class="java.lang.String" itemvalue="Python.SSH-client" />
+        <item index="4" class="java.lang.String" itemvalue="Python.SSH-server" />
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -539,8 +647,20 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="Unittests_in_cs_py - 2017.09.18 at 00h 33m 09s.xml">
+      <configuration name="Unittests in cs.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_cs_py - 2017.09.18 at 00h 38m 34s.xml">
+      <configuration name="Unittests in cs.py" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_test1_py - 2017.07.01 at 12h 56m 41s.xml">
       <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test1_py - 2017.07.05 at 10h 54m 25s.xml">
+      <configuration name="Unittests in test1.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test2_py - 2017.07.05 at 18h 46m 37s.xml">
+      <configuration name="Unittests in test2.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -556,17 +676,17 @@
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13533835" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17024705" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885087" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32819906" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885087" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3127962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938388" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3056872" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25345623" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25236967" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5094787" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34834123" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -579,6 +699,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -596,241 +719,308 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="135" />
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="309" />
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="PythonConfigurationType">
-        <watch expression="global_var['user_bill']" language="Python" />
-        <watch expression="global_var['user_name']" language="Python" />
-        <watch expression="opera_num" language="Python" />
-      </configuration>
-    </watches-manager>
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://F:/python_fullstack/part2-homework_2/homework2_2.py" />
-    <entry file="file://F:/python_fullstack/part2-homework_2/homework2_1.py" />
-    <entry file="file://F:/python_fullstack/part2-homework_1/user_locked.txt" />
-    <entry file="file://F:/python_fullstack/part2-homework_1/homework1_6.py" />
-    <entry file="file://F:/python_fullstack/part2-homework_1/homework1_6-by_teacher.py" />
-    <entry file="file://F:/python_fullstack/part2-homework_1/user_info.txt" />
-    <entry file="file://F:/python_fullstack/part2-homework_3/user_locked.txt" />
-    <entry file="file://F:/python_fullstack/part2-homework_3/homework3_1.py" />
-    <entry file="file://F:/python_fullstack/part2-homework_3/user_info.txt" />
-    <entry file="file://F:/python_fullstack/part2-homework_3/try.py" />
-    <entry file="file://F:/python_fullstack/part2-homework_3/homework3_1-rewrite.py" />
-    <entry file="file://$PROJECT_DIR$/part2-homework_1/homework1_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part2-homework_3/user_info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part2-homework_2/homework2_2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="20" column="68" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part2-homework_1/homework1_6.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-practice/123.py" />
-    <entry file="file://$PROJECT_DIR$/part3-practice/2017.06.13.txt" />
-    <entry file="file://$PROJECT_DIR$/part3-practice/test.py" />
-    <entry file="file://$PROJECT_DIR$/part3-practice/practise-1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part2-homework_3/homework3_1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4524">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part2-homework_3/homework3_1-rewrite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-353">
-          <caret line="252" column="104" lean-forward="false" selection-start-line="252" selection-start-column="41" selection-end-line="252" selection-end-column="104" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_1/haproxy.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="29" column="0" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_1/haproxy1.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="604">
-          <caret line="28" column="57" lean-forward="false" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/191218406/nt.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="278">
-          <caret line="195" column="4" lean-forward="false" selection-start-line="195" selection-start-column="4" selection-end-line="195" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_1/haproxy_backup.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_1/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="2" selection-end-line="117" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_2/staff_table1.txt" />
-    <entry file="file://$PROJECT_DIR$/part2-homework_1/user_info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_2/staff_table.txt">
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/level_1-server.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="232">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_2/test2.py">
+    <entry file="file://D:/Python3.5.2/Lib/random.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5452">
-          <caret line="188" column="0" lean-forward="false" selection-start-line="188" selection-start-column="0" selection-end-line="188" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_3/newuser_bill" />
-    <entry file="file://$PROJECT_DIR$/part3-homework_3/newuser_bill.txt" />
-    <entry file="file://$PROJECT_DIR$/part3-homework_3/root_bill1.txt" />
-    <entry file="file://$PROJECT_DIR$/part2-homework_1/homework1_6-by_teacher.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="41" column="31" lean-forward="false" selection-start-line="41" selection-start-column="28" selection-end-line="41" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_3/admin_info.txt" />
-    <entry file="file://$PROJECT_DIR$/part3-homework_3/123.txt" />
-    <entry file="file://D:/Python3.5.2/Lib/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="308" column="0" lean-forward="false" selection-start-line="308" selection-start-column="0" selection-end-line="308" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_3/ _bill.txt" />
-    <entry file="file://$PROJECT_DIR$/part3-homework_3/root3_bill.txt" />
-    <entry file="file://$PROJECT_DIR$/part3-homework_3/root_bill.txt" />
-    <entry file="file://$PROJECT_DIR$/part3-homework_3/root2_bill.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_3/test3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1943">
-          <caret line="67" column="19" lean-forward="false" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_3/user_info.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="23" lean-forward="false" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_3/root1_bill.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_3/user_locked.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="9" lean-forward="false" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part3-practice/笔记.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="707">
-          <caret line="1215" column="18" lean-forward="true" selection-start-line="1215" selection-start-column="18" selection-end-line="1215" selection-end-column="18" />
+        <state relative-caret-position="-1953">
+          <caret line="279" column="36" lean-forward="true" selection-start-line="279" selection-start-column="36" selection-end-line="279" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/part3-practice/cs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="124" column="0" lean-forward="true" selection-start-line="124" selection-start-column="0" selection-end-line="124" selection-end-column="0" />
+        <state relative-caret-position="-2958">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_3/homework3_1.py">
+    <entry file="file://$PROJECT_DIR$/part4-practice/cs.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="541">
-          <caret line="23" column="68" lean-forward="false" selection-start-line="23" selection-start-column="68" selection-end-line="23" selection-end-column="68" />
-          <folding>
-            <element signature="e#522#537#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_2/homework2_1.py">
+    <entry file="file://$PROJECT_DIR$/part4-practice/笔记.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="841">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding>
-            <element signature="e#895#904#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/part3-homework_1/homework1_1.py">
+    <entry file="file://$PROJECT_DIR$/part3-practice/practise-1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="10" lean-forward="true" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
+        <state relative-caret-position="174">
+          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="174" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.5.2/Lib/string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="24" column="15" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
+    <entry file="file://$PROJECT_DIR$/part5-practice/cs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part3-homework_3/homework3_1-rewrite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2059">
+          <caret line="1" column="2" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part4-homework_1/homework1_1-rewrite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1998">
+          <caret line="200" column="19" lean-forward="true" selection-start-line="200" selection-start-column="19" selection-end-line="200" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/多线程client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-116">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/多线程server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="30" column="34" lean-forward="false" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/并发client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/并发server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydevd_bundle/pydevd_exec2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.5.2/Lib/tkinter/filedialog.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="350" column="6" lean-forward="false" selection-start-line="350" selection-start-column="6" selection-end-line="350" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.5.2/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="317" column="41" lean-forward="true" selection-start-line="317" selection-start-column="41" selection-end-line="317" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/files/test.txt" />
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/files/yang/20170919-1.jpg" />
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/files/yang/91026876gy1fjpyiutn8nj20qo0qojwd.jpg" />
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/files/yang/20170919.jpg" />
+    <entry file="file://D:/Python3.5.2/Lib/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="861" column="0" lean-forward="false" selection-start-line="861" selection-start-column="0" selection-end-line="861" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.5.2/Lib/socketserver.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="625" column="0" lean-forward="false" selection-start-line="625" selection-start-column="0" selection-end-line="625" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/files/yang/7dd4936cly1fg4dr6e2f9j23qn2o5e84.jpg" />
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/files/yang/1442bb2d4913cd6aae02c490927c275c.jpg" />
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/conf/config.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="38" lean-forward="false" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/files/yang/春.jpg" />
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/files/yang/123.png" />
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/files/gang/GIF_(2).gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/src/homework1_1-client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1769">
+          <caret line="96" column="25" lean-forward="false" selection-start-line="96" selection-start-column="25" selection-end-line="96" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_2/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_2/example/from_windows.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="6" lean-forward="true" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.5.2/Lib/site-packages/paramiko/transport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="331" column="0" lean-forward="false" selection-start-line="331" selection-start-column="0" selection-end-line="331" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.5.2/Lib/site-packages/paramiko/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="32" column="8" lean-forward="true" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.5.2/Lib/site-packages/paramiko/file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="184" column="0" lean-forward="false" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.5.2/Lib/site-packages/paramiko/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="471" column="8" lean-forward="false" selection-start-line="471" selection-start-column="8" selection-end-line="471" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_2/SSH-client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_2/SSH-server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" column="48" lean-forward="true" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_2/example/Clean.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_2/homework2_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="19" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/src/ceshi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="101" column="23" lean-forward="true" selection-start-line="101" selection-start-column="23" selection-end-line="101" selection-end-column="23" />
+          <folding>
+            <element signature="e#351#360#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_2/src/Clean.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Python3.5.2/Lib/site-packages/paramiko/sftp_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="718" column="46" lean-forward="true" selection-start-line="718" selection-start-column="8" selection-end-line="718" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_2/conf/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_2/bin/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part4-homework_1/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="403">
-            <caret line="85" column="0" lean-forward="true" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor>
@@ -838,9 +1028,68 @@
           </second_editor>
         </state>
       </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="232">
+            <caret line="8" column="34" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="96" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_2/src/core.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="26" column="20" lean-forward="false" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_2/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="58">
+            <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/src/homework1_1-server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="17" column="0" lean-forward="true" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding>
+            <element signature="e#771#3635#0" expanded="false" />
+            <element signature="e#3669#5716#0" expanded="false" />
+            <element signature="e#5752#6057#0" expanded="false" />
+            <element signature="e#6095#6505#0" expanded="false" />
+            <element signature="e#6567#7021#0" expanded="false" />
+            <element signature="e#10802#12940#0" expanded="false" />
+            <element signature="e#12984#14159#0" expanded="false" />
+            <element signature="e#14206#16339#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part5-homework_1/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor>
+            <js_state />
+          </second_editor>
         </state>
       </provider>
     </entry>
